@@ -15,7 +15,7 @@ y = [ ];
 [p,s] = polyfit(x,y,graupolinomio);
 
 % Calcular o x polinomio no valor
-plyval(p,valor);
+polyval(p,valor);
 % Avaliação do polinomio
 % s.normr^2 => soma quadrada, residuo => erro
 s.normr^2
